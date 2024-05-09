@@ -1,0 +1,108 @@
+/* .color1 { #22806b };
+.color2 { #a89f1d };
+.color3 { #facb4b };
+.color4 { #fcaf14 };
+.color5 { #ed7615 };
+link para a paleta: https://paletadecores.com/paleta/fca61d/fdb830/fec943/fedb57/ffec6a/ (paleta laranja)
+link para a paleta: https://paletadecores.com/paleta/f8d76f/f9e191/fbebb2/fdf5d4/fffff5/ (paleta amarela)
+link para a paleta: https://paletadecores.com/paleta/22806b/a89f1d/facb4b/fcaf14/ed7615/*/
+
+*{margin: 0;
+padding: 0;}
+
+
+.navbar-collapse {
+    background-color: #fdb830;
+    border-radius: 1%; /* Cor de fundo desejada */
+    margin-left: 1%;
+    padding: 10px;    /*Espaçamento interno para os textos*/
+    border-radius: 4px;
+}
+
+body{
+    background-color: #fdf5bf;
+    font-family: verdana;
+    overflow-x: hidden;
+}
+
+.intro p{
+    font-size: 20px;
+}
+
+.container-fluid{
+    height: 60px;
+    background-color: #fdb830 ;
+}
+
+.ti{
+    margin-top: 12%;
+}
+
+.col-md-6 h2{
+    position: relative;
+    left: 8%;
+}
+
+.analises{
+    margin-bottom: 1%;
+}
+
+.capa_de_livro{
+    display: flex;
+    justify-content: center;
+}
+
+.capa_de_livro img{
+    width:fit-content;
+    height: 50vh;
+    /* max-height: 60vw ; */
+}
+
+.ini{margin: 5%;}
+
+footer{
+    width:100vw;
+}
+
+.text{
+    width: fit-content;
+}
+
+#email_rodape{
+    align-self: flex-end;
+}
+
+#email_input{
+    min-width: 25vw;
+    max-width: 50vw;
+}
+
+.intro{
+    width: fit-content;
+}
+
+.card-body{
+    background-color: #ffcf6e;
+    
+}
+
+.cartao{
+    margin-bottom: 50px;
+}
+
+footer{
+    background-color: blue;
+}
+
+.container{
+    grid-template-rows: 500px 500px 500px;
+}
+
+.cor{
+    height: 41vh;
+    background-color: #ffca60 ;
+}
+
+#Copyright{
+    width: 100vw;
+}
